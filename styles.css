@@ -58,18 +58,22 @@ table {
 
 .vh1 {
  background-color: #555;
+ font-family: 'Varela Round', sans-serif;
 }
 
 .vh2 {
 	background-color: #777;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .vh3 {
 	background-color: #999;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .vh4 {
 	background-color: #aaa;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .vh5 {
@@ -97,6 +101,7 @@ header.main-header {
 	justify-content: space-around;
 	align-items: center;
 	background-color: #eee;
+	font-family: 'Varela Round', sans-serif;
 	/* padding: 0 5%; */
 }
 
@@ -458,4 +463,36 @@ nav {
 	font-size: 1.2em;
 	padding: 10px;
 	margin-bottom: 10px;
+}
+
+/* Featured Book Section */
+
+.featured-book {
+	display: flex;
+	justify-content: space-between;
+	padding: 80px;
+}
+
+.featured-book-image {
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+}
+
+.featured-book-image-container {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.featured-book-text {
+	line-height: 1.2;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.featured-book-text > * {
+	margin: 10px;
 }
